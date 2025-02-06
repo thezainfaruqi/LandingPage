@@ -143,63 +143,28 @@ ul {
     margin-left: 1500px;
 }
 
-.outblue {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-}
 
-.blue {
-    background-color: rgb(55, 135, 255);
-    height: 210px;  /* Allow height to adjust based on content */
-    width: 1100px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    border: none;
-    border-radius: 4px;
-    color: white;
+.action-box {
     display: flex;
-    flex-direction: column;  /* Keep the content stacked vertically */
-    justify-content: center;
-    align-items: center;
-    font-family: 'sans-serif', 'Arial Narrow', Arial, sans-serif;
-    padding: 20px;  /* Add some padding for space around content */
-}
-
-.sbutton {
-    background-color: rgb(55, 135, 255);
+    justify-content: space-between;
+    background-color: #3882F6;
     border-radius: 8px;
-    border-color: white;
-    color: rgb(255, 255, 255);
-    font-weight: 400;
-    font-size: 20px;  /* Adjust font size */
-    padding: 10px 20px;
-    cursor: pointer;
-    margin-top: 20px;  /* Space between the text and button */
-}
-
-.set {
-    display: flex;
-    flex-direction: column;  /* Stack the text and button vertically */
-    align-items: center;     /* Center the content */
-    justify-content: center;
-    width: 100%;
-    margin-top: 20px;        /* Space between elements */
-}
-
-.set h4 {
-    text-align: center;  /* Center the text */
-    margin-bottom: 20px;  /* Space between the text and button */
+    color: #F9FAF8;
+    padding: 50px 100px;
+    flex: 1 1 10px;
 }
 
 
-
-
-
-
-
-
+.sign-up-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 8px 36px;
+    border-radius: 8px;
+    border: 0px;
+    margin: 12px 0px;
+}
 
 
 
