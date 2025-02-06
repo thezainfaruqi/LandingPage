@@ -75,10 +75,15 @@ ul {
 }
 
 /* info section */
+
+.level {
+    height: 460px
+}
 .info {
     display: flex;
     justify-content: center;
     gap: 60px;
+
 }
 
 .head {
@@ -89,6 +94,7 @@ ul {
     align-items: center;
     margin-top: 50px;
     margin-bottom: 60px;
+    
 }
 .cat {
     border-radius: 10px;
@@ -112,18 +118,97 @@ ul {
 /* Quote */
 
 .quote {
-    background-color: #c6c9d493;
-    height:400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #c6c9d493;  /* Slightly transparent background */
+    height: 300px;                /* Adjust height */
+    display: flex;                /* Use flexbox to center the content */
+    flex-direction: column;       /* Arrange content vertically */
+    justify-content: center;      /* Center content vertically */
+    padding: 30px;                /* Add some padding around the quote */
+    text-align: center;           /* Center-align the text */
 }
 
 .actualtext {
-    font-family:'sans-serif', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
-    color:#303644;
-    font-weight: 100px;
-    text-align: center;
-    #padding:400px;
+    font-family: 'sans-serif', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;              /* Adjusted font size for better readability */
+    color: #303644;               /* Dark text color */
+    font-weight: 100;             /* Light font weight */
+}
+
+.name {
+    font-family: 'sans-serif', Arial, sans-serif;
+    font-size: 20px;              /* Smaller font size for the name */
+    color: #303644;               /* Match text color */
+    margin-top: 10px;             /* Space between quote and author */
+    font-weight: bold;            /* Bold font for the author's name */
+    margin-left: 1500px;
+}
+
+.outblue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.blue {
+    background-color: rgb(55, 135, 255);
+    height: 210px;  /* Allow height to adjust based on content */
+    width: 1100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    flex-direction: column;  /* Keep the content stacked vertically */
+    justify-content: center;
+    align-items: center;
+    font-family: 'sans-serif', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;  /* Add some padding for space around content */
+}
+
+.sbutton {
+    background-color: rgb(55, 135, 255);
+    border-radius: 8px;
+    border-color: white;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 20px;  /* Adjust font size */
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;  /* Space between the text and button */
+}
+
+.set {
+    display: flex;
+    flex-direction: column;  /* Stack the text and button vertically */
+    align-items: center;     /* Center the content */
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;        /* Space between elements */
+}
+
+.set h4 {
+    text-align: center;  /* Center the text */
+    margin-bottom: 20px;  /* Space between the text and button */
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    font-size: 17px;
+    height: 100px;
 }
