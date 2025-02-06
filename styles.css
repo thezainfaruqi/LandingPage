@@ -144,6 +144,17 @@ ul {
 }
 
 
+
+
+
+
+/* Call to action */
+
+.container {
+    height:300px;
+    
+}
+
 .action-box {
     display: flex;
     justify-content: space-between;
@@ -152,6 +163,10 @@ ul {
     color: #F9FAF8;
     padding: 50px 100px;
     flex: 1 1 10px;
+    margin-top:50px;
+    width: 700px;
+    margin-left: 540px;
+
 }
 
 
