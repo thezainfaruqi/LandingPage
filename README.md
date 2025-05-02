@@ -1,1 +1,26 @@
-This project is a practice landing page layout designed using Flexbox . The goal is to experiment and learn the power of CSS Flexbox for building responsive and adaptive layouts. This is not a real, functional landing page , but rather a mock-up that showcases different layout techniques, such as centering, alignment, and distribution of elements . It's a great way to dive deeper into Flexbox and enhance front-end development skills .
+# Flexbox Landing Page Layout (Practice Project)
+
+This is a simple landing page layout built using **HTML** and **CSS Flexbox**. The goal was to practice real-world layout techniques with Flexbox, focusing on responsive design and clean structure.
+
+## Features
+
+- Responsive layout using only Flexbox (no frameworks)
+- Centered and aligned sections
+- Clean and organized file structure
+- Mobile-friendly design
+
+## Tech Used
+
+- HTML5
+- CSS3 (Flexbox)
+
+## How to View
+
+1. Clone the repo:
+
+2. Open `index.html` in your browser.
+
+## Notes
+
+- This is a mock layout — it’s not connected to any backend or real service.
+- Created to improve frontend layout and Flexbox skills.
